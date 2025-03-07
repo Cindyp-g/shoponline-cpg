@@ -1,19 +1,23 @@
-<p>toolbar works!</p>
 <div class="card">
     <p-toolbar>
         <ng-template #start>
-            <p-button icon="pi pi-plus" class="mr-2" text severity="secondary" />
-            <p-button icon="pi pi-print" class="mr-2" text severity="secondary" />
-            <p-button icon="pi pi-upload" text severity="secondary" />
+            <img src="logo.png" alt="logo" width="50px" height="50px">
+            <p-button icon="pi pi-home" class="mr-2" text severity="secondary" /> <!-- Inicio -->
+            <p-button icon="pi pi-shopping-cart" class="mr-2" text severity="secondary" /> <!-- Carrito -->
+            <p-splitbutton icon="pi pi-th-large" text severity="secondary" [model]="categorias"> <!-- Categorías -->
+            </p-splitbutton>
+            <p-button icon="pi pi-file" text severity="secondary" /> <!-- Orden -->
         </ng-template>
+
         <ng-template #center>
             <p-iconfield iconPosition="left">
                 <p-inputicon styleClass="pi pi-search" />
-                <input type="text" pInputText placeholder="Search" />
+                <input type="text" pInputText placeholder="Búsqueda" />
             </p-iconfield>
         </ng-template>
+
         <ng-template #end>
-            <p-splitbutton label="Save" [model]="items" />
+            <p-splitbutton icon="pi pi-user" [model]="perfilItems" /> <!-- Perfil -->
         </ng-template>
     </p-toolbar>
 </div>

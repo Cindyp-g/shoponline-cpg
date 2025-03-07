@@ -1,0 +1,52 @@
+.card {
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color:aliceblue; 
+}
+
+p-toolbar img {
+    border-radius: 8px;
+}
+
+p-button {
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+p-button:hover {
+    background-color: #e0e0e0;
+}
+
+p-iconfield {
+    width: 250px;
+}
+
+p-inputicon {
+    color: #6c757d;
+}
+
+p-toolbar {
+    border-radius: 8px;
+}
+
+p-toolbar img {
+    border-radius: 8px;
+}
+
+p-button {
+    border-radius: 8px;
+    background-color: transparent !important;
+    color: #333 !important;
+    border: none !important;
+}
+
+
+input[pInputText] {
+    border: 1px solid #ccc !important;
+    border-radius: 6px;
+}
+
+input[pInputText]::placeholder {
+    color: #999;
+}

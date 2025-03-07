@@ -1,2 +1,9 @@
 @import "primeicons/primeicons.css";
 @import "primeflex/primeflex.css";
+
+html, body{
+    height: 95%;
+    margin-left: 1%;
+    width: 95%;
+    background-color: aliceblue;
+}

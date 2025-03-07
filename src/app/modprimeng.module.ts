@@ -5,13 +5,15 @@ import { ToastModule } from 'primeng/toast';
 import { Ripple } from 'primeng/ripple';
 import { MegaMenuModule } from 'primeng/megamenu';
 import { ToolbarModule } from 'primeng/toolbar';
+import {CardModule} from 'primeng/card';
 
 const mismodulos: any = [
  ButtonModule,
  Ripple,
  ToastModule,
  MegaMenuModule,
- ToolbarModule
+ ToolbarModule,
+ CardModule
 ];
 
 @NgModule({
