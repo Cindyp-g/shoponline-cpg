@@ -1,19 +1,19 @@
-/* Contenedor principal para el layout */
+
 .main {
     display: flex;
     flex-direction: column;
-    height: 95%; /* Asegura que ocupe toda la altura de la pantalla */
+    height: 95%; 
 }
 
-/* Estilos del header, para moverlo un poco más arriba */
+
 .header {
-    padding-top: 5px; /* Ajusta este valor según lo necesites */
-    padding-bottom: 5px; /* Puedes ajustar la distancia inferior si es necesario */
+    padding-top: 5px; 
+    padding-bottom: 5px; 
 }
 
-/* Estilos del cuerpo principal (contenido central) */
+
 .flex {
-    flex-grow: 1; /* Hace que este div ocupe el espacio restante entre el header y el footer */
+    flex-grow: 1; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,8 +22,8 @@
 .footer {
     position: absolute;
     bottom: 0;
-    width: 95%; /* Hace que el footer ocupe todo el ancho de la página */
+    width: 95%; 
     text-align: center;
     padding: 10px 0;
-    background-color: #f1f1f1; /* Puedes cambiar el color de fondo */
+    background-color: #f1f1f1; 
 }
